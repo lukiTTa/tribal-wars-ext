@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+</head>
+
+<body>
+  <p>
+    Status: <span id="status">Inativo 🔴</span>
+  </p>
+  <p>
+    <label for="quantidade">
+      Quantidade:
+      <input id="quantidade" type="text">
+    </label>
+  </p>
+  <p>
+    <input type="checkbox" id="pequenaCol" name="cssCheckbox" class="css-checkbox">
+    <label for="pequenaCol">
+      Pequena Coleta
+    </label>
+  </p>
+  <p>
+    <input type="checkbox" id="mediaCol" name="cssCheckbox" class="css-checkbox">
+    <label for="mediaCol">
+      Média Coleta
+    </label>
+  </p>
+  <p>
+    <input type="checkbox" id="grandeCol" name="cssCheckbox" class="css-checkbox">
+    <label for="grandeCol">
+      Grande Coleta
+    </label>
+  </p>
+  <p>
+    <input type="checkbox" id="extremaCol" name="cssCheckbox" class="css-checkbox">
+    <label for="extremaCol">
+      Extrema Coleta
+    </label>
+  </p>
+  <div class="buttons">
+    <button id="iniciaColeta">Iniciar Coleta</button>
+    <button id="finalizaColeta">Finalizar Coleta</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
