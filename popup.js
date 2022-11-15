@@ -147,3 +147,5 @@ function iniciaColeta(quantidade) {
     }
   }
 }
+
+//teste
